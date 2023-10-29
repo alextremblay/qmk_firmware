@@ -35,6 +35,8 @@ QUANTUM_PAINTER_ENABLE = no # Enable Quantum Painter
 HD44780_ENABLE = no		 # Enable HD44780 LCD Display
 ST7565_ENABLE = no 		# Enable ST7565 LCD Display
 OLED_ENABLE = yes            # Enable OLED screen support
+OLED_DRIVER = ssd1306
+OLED_TRANSPORT = i2c
 
 BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
 LED_MATRIX_ENABLE = no   	# Enable LED Matrix support
@@ -55,7 +57,7 @@ PS2_ENABLE = no				 # Enable PS2
 SPLIT_KEYBOARD = yes 	  # Enable split keyboard
 
 EXTRAKEY_ENABLE = yes       # Audio control and System control
-CONSOLE_ENABLE = no         # Console for debug
+CONSOLE_ENABLE = yes         # Console for debug
 NKRO_ENABLE = yes            # Enable N-Key Rollover
 LTO_ENABLE = no             # Enable link-time optimization
 
